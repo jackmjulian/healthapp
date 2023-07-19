@@ -20,6 +20,10 @@
     margin: 10px;
   }
 
+  button {
+    color: inherit;
+  }
+
   .menu-icon,
   .login-icon {
     display: flex;

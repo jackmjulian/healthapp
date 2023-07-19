@@ -1,12 +1,20 @@
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 import DoneIcon from '@mui/icons-material/Done';
+import { useNavigate } from 'react-router-dom';
 
 const NavBarFood = () => {
+  const navigate = useNavigate();
+
+  const goBack = () => {
+    navigate(-1);
+    console.log('goBack');
+  };
+
   return (
     <div className='navbar-container'>
-      <div className='menu-icon'>
+      <button className='menu-icon' onClick={goBack}>
         <ArrowBackIcon />
-      </div>
+      </button>
       <div className='navbar-logo'>
         WebDev
         <br />

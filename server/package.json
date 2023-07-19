@@ -1,0 +1,27 @@
+{
+  "name": "healthapp",
+  "version": "1.0.0",
+  "description": "Health & Fitness App to Track Calories and Workouts",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jackmjulian/healthapp.git"
+  },
+  "author": "Jack Julian",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jackmjulian/healthapp/issues"
+  },
+  "homepage": "https://github.com/jackmjulian/healthapp#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
